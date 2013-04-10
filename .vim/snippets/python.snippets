@@ -1,15 +1,20 @@
 snippet #!
-	#!/usr/bin/python
+	#!/usr/bin/env python
+	# -*- coding: utf-8 -*-
 
 snippet imp
 	import ${1:module}
 # Module Docstring
 snippet docs
-	'''
-	File: ${1:`Filename('$1.py', 'foo.py')`}
-	Author: ${2:`g:snips_author`}
-	Description: ${3}
-	'''
+	"""
+		${1:module}
+		~~~~~~~~~~~
+	
+		${2: description}
+
+		:copyright: (c) 2013 by Andreas Argelius
+		:license: ${3: license}
+	"""
 snippet wh
 	while ${1:condition}:
 		${2:# code...}
