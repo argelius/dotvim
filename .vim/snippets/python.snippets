@@ -2,18 +2,21 @@ snippet #!
 	#!/usr/bin/env python
 	# -*- coding: utf-8 -*-
 
+snippet # 
+	# -*- coding: utf-8 -*-
+
 snippet imp
 	import ${1:module}
 # Module Docstring
 snippet docs
-	"""
-		${1:module}
+	""" 
+		 ${1:module}
 		~~~~~~~~~~~
 	
-		${2: description}
+		${2:description}
 
-		:copyright: (c) 2013 by Andreas Argelius
-		:license: ${3: license}
+		:copyright: (c) ${3:2013} by ${4:Andreas Argelius}
+		:license: ${5:BSD}
 	"""
 snippet wh
 	while ${1:condition}:
