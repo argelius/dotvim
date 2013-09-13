@@ -9,6 +9,8 @@ set softtabstop=4
 set autoindent
 set smarttab
 set expandtab
+set tabstop=8
 filetype indent on
 filetype on
 filetype plugin on
+syntax on
