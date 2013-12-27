@@ -14,3 +14,5 @@ filetype indent on
 filetype on
 filetype plugin on
 syntax on
+
+colorscheme delek
