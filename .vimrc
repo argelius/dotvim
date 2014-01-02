@@ -15,5 +15,5 @@ filetype on
 filetype plugin on
 
 syntax enable
-set background=light
-colorscheme github
+set background=dark
+colorscheme solarized
