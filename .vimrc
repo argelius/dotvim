@@ -13,6 +13,7 @@ set tabstop=8
 filetype indent on
 filetype on
 filetype plugin on
-syntax on
 
-colorscheme delek
+syntax enable
+set background=light
+colorscheme github
