@@ -10,12 +10,12 @@ snippet imp
 # Module Docstring
 snippet docs
 	""" 
-		 ${1:module}
+		${1:module}
 		~~~~~~~~~~~
 	
 		${2:description}
 
-		:copyright: (c) ${3:2013} by ${4:Andreas Argelius}
+		:copyright: (c) ${3:2014} by ${4:Andreas Argelius}
 		:license: ${5:BSD}
 	"""
 snippet wh
@@ -35,14 +35,16 @@ snippet cl
 # New Function
 snippet def
 	def ${1:fname}(${2:`indent('.') ? 'self' : ''`}):
-		"""${3:docstring for $1}"""
+		"""
+		    ${3:docstring for $1}
+		"""
 		${4:pass}
 snippet deff
-	def ${1:fname}(${2:`indent('.') ? 'self' : ''`}):
+	def ${1: fname}(${2:`indent('.') ? 'self' : ''`}):
 		${3}
 # New Method
 snippet defs
-	def ${1:mname}(self, ${2:arg}):
+	def ${1:m name}(self, ${2:arg}):
 		${3:pass}
 # New Property
 snippet property

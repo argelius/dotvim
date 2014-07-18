@@ -1,5 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/andreas/workspace/apps/andreas/capella-counter/modules/stereo/stereo'
-let g:netrw_dirhist_2='/home/andreas/workspace/apps/andreas/cogadmin/deploy'
-let g:netrw_dirhist_3='/home/andreas/workspace/apps/andreas'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/mnt/yocto/yocto/build/tmp/work/overo-poky-linux-gnueabi/linux-gumstix/3.5.7-r1000000031/git/drivers/media'
+let g:netrw_dirhist_2='/mnt/yocto/yocto/build/tmp/work/overo-poky-linux-gnueabi/linux-gumstix/3.5.7-r1000000031/git/drivers/media/video'
+let g:netrw_dirhist_3='/home/andreas/test'
+let g:netrw_dirhist_4='/home/andreas/workspace/apps/andreas/capella-counter/modules/stereo/stereo/rectification'
+let g:netrw_dirhist_5='/home/andreas/workspace/apps/erb/prodadmin-flask/src'
+let g:netrw_dirhist_6='/home/andreas/workspace/apps/erb/prodadmin-flask'
+let g:netrw_dirhist_7='/home/andreas/workspace/apps/erb/prodadmin-flask/src'
+let g:netrw_dirhist_8='/home/andreas/workspace/apps/erb/prodadmin-flask/src/db'
+let g:netrw_dirhist_9='/home/andreas/workspace/apps/gustaf/webreport/www/application/modules/installation/models/DatabaseUpdateEntry'
